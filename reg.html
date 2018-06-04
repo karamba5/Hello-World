@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="utf-8">
+    <title>Реєстрація</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+  <section id="fields">
+      <div>
+          <h1>Розпочнемо!</h1>
+          <fieldset>
+              <legend>Трішки інформайції про себе</legend>
+              <form>
+                  <div class="flexContainer">
+                      <div class="first-col">
+                          <div>
+                              <label>Ім'я</label>
+                              <input type="text" title="name">
+                          </div>
+                          <div>
+                              <label>E-mail</label>
+                              <input type="email" title="e-mail">
+                          </div>
+                          <div>
+                              <label>Мобільний номер</label>
+                              <input type="tel" title="number">
+                          </div>
+                      </div>
+                      <div class="second-col">
+                          <div>
+                              <label>
+                                Ваш улюблений колір
+                              </label>
+                              <input type="color" title="color">
+                          </div>
+                          <div>
+                              <label>Який у Вас настрій?</label>
+                              <input type="range" list="tickmarks" title="range">
+
+                              <datalist id="tickmarks">
+                                  <option value="0" label="0%">
+                                  <option value="10" label="10%">
+                                  <option value="20" label="20%">
+                                  <option value="30" label="30%">
+                                  <option value="40" label="40%">
+                                  <option value="50" label="50%">
+                                  <option value="60" label="60%">
+                                  <option value="70" label="70%">
+                                  <option value="80" label="80%">
+                                  <option value="90" label="90%">
+                                  <option value="100" label="100%">
+                              </datalist>                        </div>
+                          <div>
+                              <label>Який Ви сьогодні?</label>
+                              <label class="container">
+                                  <input type="checkbox">
+                                  <a>Красивий</a>
+                              </label>
+                              <label class="container">
+                                  <input type="checkbox">
+                                  <a>Розумний</a>
+                              </label>
+                          </div>
+                      </div>
+
+                  </div>
+                  <hr>
+                  <div>
+                    <input type="submit">
+                  </div>
+              </form>
+          </fieldset>
+      </div>
+  </section>
+</body>
+</html>
